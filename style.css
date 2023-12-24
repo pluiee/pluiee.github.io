@@ -23,17 +23,16 @@
     font-family: 'Rubik', sans-serif;
 }
 
-body {
-    padding-left: 36px;
-}
-
 i {
     width: 140px;
     padding-right: 10px;
     margin-right: 10px;
     display: inline-block;
-    margin: 0 10px 5px 0;
     border-right: 1px solid #00000033;
+}
+
+li {
+    margin: 5px 0;
 }
 
 .last-edit {
