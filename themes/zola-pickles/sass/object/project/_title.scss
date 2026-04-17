@@ -1,0 +1,10 @@
+@import "../../variables";
+
+.p-title {
+  margin: 0;
+  font-size: 4.4rem;
+  font-family: $HeaderFont;
+  &__link {
+    color: $fg_0;
+  }
+}
