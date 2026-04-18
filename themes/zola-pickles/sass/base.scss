@@ -23,7 +23,7 @@ h4,
 h5,
 h6 {
   font-weight: bold;
-  font-family: $BodyFont;
+  font-family: $HeaderFont;
   color: $fg_1;
 }
 
@@ -112,6 +112,11 @@ code {
   line-height: 1.8;
   font-size: 1.6rem;
   font-family: $CodeFont;
+}
+
+code:not(pre code) {
+  background-color: #e7e6f466;
+  padding: .125rem, 0, .125rem, 0;
 }
 
 table {
